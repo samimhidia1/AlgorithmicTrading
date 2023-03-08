@@ -24,6 +24,7 @@ def get_reward(df, i, action):
     else:
         return 0
 
+
 def take_action(action):
     if action == 'buy':
         # Buy the asset
