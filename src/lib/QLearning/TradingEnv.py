@@ -3,6 +3,7 @@ from gym import spaces
 import numpy as np
 import pandas as pd
 
+
 class TradingEnv(gym.Env):
     def __init__(self):
         self.df = pd.read_csv('data.csv', index_col=0)
